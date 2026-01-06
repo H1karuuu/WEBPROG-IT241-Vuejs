@@ -167,6 +167,13 @@ body {
     z-index: 1;
 }
 
+#app {
+      display: inline-block;
+      padding: 10px;
+      font-size: x-large;
+      background-color: lightgreen;
+}
+
 @keyframes pulse {
     0%, 100% {
         transform: translate(-50%, -50%) scale(1);
@@ -840,11 +847,4 @@ body {
     .resources-grid {
         grid-template-columns: 1fr;
     }
-}
-
-#app {
-      display: inline-block;
-      padding: 10px;
-      font-size: x-large;
-      background-color: lightgreen;
 }
