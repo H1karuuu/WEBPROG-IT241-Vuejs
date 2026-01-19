@@ -1,12 +1,14 @@
 <template>
-  <h1>Food</h1>
-  <food-item/>
-  <food-item/>
-  <food-item2/>
-  <food-item2/>
+  <PersonalProfile />
 </template>
 
-<script></script>
+<script>
+import PersonalProfile from './components/PersonalProfile.vue'
 
-<style>
-</style>  
+export default {
+  name: 'App',
+  components: {
+    PersonalProfile
+  }
+}
+</script>
