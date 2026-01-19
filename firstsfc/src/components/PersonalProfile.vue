@@ -202,12 +202,15 @@
 </template>
 
 <script>
+
+import profileImage from '@/assets/Photo/Profile.svg'
+
 export default {
   name: 'PersonalProfile',
   data() {
     return {
       isMenuOpen: false,
-      profileImage: '/home/images/Profile.svg',
+      profileImage,
       navItems: [
         { id: 'home', name: 'Home' },
         { id: 'about', name: 'About' },
@@ -384,10 +387,8 @@ export default {
     }
   }
 }
+
 </script>
 
-<style scoped>
-@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700;900&family=Rajdhani:wght@300;400;500;600;700&display=swap');
-@import './components/css/styles.css'
-@import './components/Photo/Profile.svg'
+<style>
 </style>
