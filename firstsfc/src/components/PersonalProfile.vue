@@ -388,6 +388,6 @@ export default {
 
 <style scoped>
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700;900&family=Rajdhani:wght@300;400;500;600;700&display=swap');
-@import './componets/css/styles.css'
-@import './componets/Photo/Profile.svg'
+@import './components/css/styles.css'
+@import './components/Photo/Profile.svg'
 </style>
