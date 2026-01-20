@@ -1,1 +1,1 @@
-# WEBPROG-IT241-Vuejs
+# WEBPROG-IT241-Vuejs-Supabase
