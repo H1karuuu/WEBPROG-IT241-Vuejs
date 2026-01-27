@@ -9,7 +9,6 @@ import Comment from './components/Comment.vue'
 
 import '@/assets/styles.css'
 
-
 const app = createApp(App)
 
 app.component('food-item', FoodItem)
