@@ -7,7 +7,7 @@ import PersonalProfile from './components/PersonalProfile.vue'
 import CommentForm from './components/CommentForm.vue'
 import Comment from './components/Comment.vue'
 
-import '@/assets/styles.css'
+//import '@/assets/styles.css'
 
 const app = createApp(App)
 
