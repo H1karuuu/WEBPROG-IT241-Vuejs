@@ -1,20 +1,35 @@
 <template>
-  <h1>Food</h1>
-  <food-item/>
-  <food-item2/>
+  <div>
+    <!-- Food Section -->
+    <h1>Food</h1>
+    <food-item />
+    <food-item2 />
 
-  <h1>PersonalProfile</h1>
-  <personal-profile/>
+    <!-- Personal Profile Section -->
+    <h1>Personal Profile</h1>
+    <personal-profile />
 
-  <h1>Comment</h1>
-  <comment-form/>
-  <comment/>
-  
-   
+    <!-- Comments Section -->
+    <h1>Comments</h1>
+    <comment-form />
+    <comment />
+  </div>
 </template>
 
 <script setup>
-import Comment from './Comment.vue'
-import CommentForm from './CommentForm.vue'
+/* Import all components with correct paths and case-sensitive names */
+import FoodItem from './components/FoodItem.vue'
+import FoodItem2 from './components/FoodItem2.vue'
+import PersonalProfile from './components/PersonalProfile.vue'
+import CommentForm from './components/CommentForm.vue'
+import Comment from './components/Comment.vue'
 </script>
 
+<style>
+h1 {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  color: #ff0055; 
+  font-family: 'Orbitron', sans-serif;
+}
+</style>
