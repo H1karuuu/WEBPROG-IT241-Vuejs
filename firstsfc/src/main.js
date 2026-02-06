@@ -6,6 +6,7 @@ import FoodItem2 from './components/FoodItem2.vue'
 import PersonalProfile from './components/PersonalProfile.vue'
 import CommentForm from './components/CommentForm.vue'
 import Comment from './components/Comment.vue'
+import RestApi from './components/RestApi.vue'
 
 import '@/assets/styles.css'
 
@@ -16,5 +17,6 @@ app.component('food-item2', FoodItem2)
 app.component('personal-profile', PersonalProfile)
 app.component('comment-form', CommentForm)
 app.component('comment', Comment)
+app.component('rest-api', RestApi)
 
 app.mount('#app')

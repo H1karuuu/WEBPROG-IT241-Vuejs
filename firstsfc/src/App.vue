@@ -13,6 +13,9 @@
     <h1>Comments</h1>
     <comment-form />
     <comment />
+
+    <!-- RestApi Section -->
+    <rest-api/> 
   </div>
 </template>
 
@@ -23,6 +26,7 @@ import FoodItem2 from './components/FoodItem2.vue'
 import PersonalProfile from './components/PersonalProfile.vue'
 import CommentForm from './components/CommentForm.vue'
 import Comment from './components/Comment.vue'
+import RestApi from './components/RestApi.vue'
 </script>
 
 <style>
